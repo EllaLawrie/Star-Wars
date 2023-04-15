@@ -14,7 +14,7 @@ const MovieContent = () => {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const images = [img1, img2, img1, img2, img1, img2]
 
-  const { data: movies, isFetching, error } = useQuery('movies', fetchMovies)
+  const { data: movies, isFetching } = useQuery('movies', fetchMovies)
 
   const updatedMovies = useMemo(() => {
     return movies?.map((movie, index) => {
