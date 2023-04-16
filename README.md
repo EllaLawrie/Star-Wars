@@ -1,4 +1,4 @@
-[Link to Live Project]{https://ella-star-wars.netlify.app/}
+# [Link to Live Project](https://ella-star-wars.netlify.app/)
 
 # Getting Started with Create React App
 
