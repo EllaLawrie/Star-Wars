@@ -1,6 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-const Card = ({ title, releaseDate, openingCrawl, img }) => {
+const Card = ({ title, releaseDate, openingCrawl, img, movieId }) => {
   return (
     <div className='movie-card'>
       <div className='card-img'>
@@ -11,7 +12,7 @@ const Card = ({ title, releaseDate, openingCrawl, img }) => {
         <p className='date'>{releaseDate}</p>
         <p>{openingCrawl}</p>
         <hr />
-        <a href='#'>More Info</a>
+        <Link to={`/movies/${movieId}`}>More Info</Link>
       </div>
     </div>
   )

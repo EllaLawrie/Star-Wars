@@ -52,6 +52,7 @@ const MovieContent = () => {
               title={movie.title}
               releaseDate={movie.release_date}
               openingCrawl={truncate(movie.opening_crawl, 260)}
+              movieId={movie.episode_id}
             />
           ))}
       </div>
