@@ -10,7 +10,7 @@ const Card = ({ title, releaseDate, openingCrawl, img, movieId }) => {
       <div className='card-content'>
         <h2>{title}</h2>
         <p className='date'>{releaseDate}</p>
-        <p>{openingCrawl}</p>
+        <p className='card-desc'>{openingCrawl}</p>
         <hr />
         <Link to={`/movies/${movieId}`}>More Info</Link>
       </div>

@@ -78,12 +78,17 @@ hr {
   left: 0;
 }
 
+.card-content .card-desc {
+  line-height: 1.5;
+}
+
 .card-img img {
   width: 100%;
 }
 
 .date {
   color: #cccccc84;
+  margin: 0.85rem 0;
 }
 
 .logo {
@@ -168,13 +173,6 @@ hr {
 
 .name-grid li {
   margin-bottom: 0.5rem;
-}
-
-.planets {
-}
-.species {
-}
-.starships {
 }
 
 .list-container {
