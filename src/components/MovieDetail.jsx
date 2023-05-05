@@ -2,7 +2,6 @@ import axios from 'axios'
 import { useQuery } from 'react-query'
 import { useNavigate, useParams } from 'react-router-dom'
 
-// create a component for the movie details page
 const MovieDetail = () => {
   const { id } = useParams()
   const getMovieDetail = async (movieId) => {
