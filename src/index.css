@@ -94,3 +94,45 @@ hr {
 .logo svg {
   width: 100%;
 }
+
+.movie-detail-header {
+  color: white;
+  font-size: 2rem;
+}
+
+.movie-detail-desc {
+  font-size: 14px;
+  color: rgb(197, 197, 197);
+  line-height: 1.7;
+}
+
+.detail-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.detail-card {
+  width: 500px;
+  margin: auto;
+}
+
+.detail-card button {
+  border: none;
+  outline: none;
+  background-color: rgb(7, 123, 255);
+  color: rgb(255, 255, 255);
+  padding: 0.5rem 2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.detail-card button:hover {
+  background-color: white;
+  color: black;
+}
